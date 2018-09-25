@@ -1,0 +1,6 @@
+# Ignore Local files
+local/*
+
+# don't ignore keep files or template files
+!.keep
+!template.*
