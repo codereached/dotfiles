@@ -32,7 +32,7 @@ brew 'rbenv'
 # Apps
 cask 'alfred'
 cask 'gpg-suite'
-cask 'java'
+cask 'java8'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
