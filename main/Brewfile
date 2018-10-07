@@ -28,6 +28,7 @@ brew 'go'
 brew 'pyenv' # Python
 brew 'ruby-build'
 brew 'rbenv'
+brew 'hub'y
 
 # Apps
 cask 'alfred'

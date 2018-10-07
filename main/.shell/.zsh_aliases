@@ -1,0 +1,7 @@
+
+alias showdots="ls -ad .?*"
+
+
+# Git
+alias gs="git status"
+alias gp="git push"
