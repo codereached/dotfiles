@@ -20,3 +20,6 @@ source <(antibody init)
 antibody bundle < ~/.shell/.zsh_plugins.txt
 autoload -U promptinit; promptinit
 prompt pure
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
