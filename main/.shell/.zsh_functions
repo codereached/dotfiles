@@ -6,3 +6,17 @@ dots() {
 brewup() {
     brew bundle
 }
+
+
+# Cookiecutter
+
+cc() {
+  cookiecutter "cookiecutter-"$1
+}
+
+
+ 	# LS after cd
+ 	c() {
+ 		cd $1
+ 		ls
+ 	}

@@ -1,17 +1,12 @@
 TERM=xterm-256color
 
-#PROMPT STUFF
-GREEN=$(tput setaf 2);
-YELLOW=$(tput setaf 3);
-WHITE=$(tput setaf 7);
-RESET=$(tput sgr0);
-
-
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
+setopt inc_append_history # save history right away
+setopt share_history # share history between terminals
+
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -34,3 +29,5 @@ prompt pure
 
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export VISUAL=vim #set vim as default

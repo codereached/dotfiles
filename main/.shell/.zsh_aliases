@@ -1,7 +1,14 @@
 
 alias showdots="ls -ad .?*"
-
+alias ll="ls -al"
+alias l="ls"
 
 # Git
 alias gs="git status"
 alias gp="git push"
+
+# Vim
+alias v="vim -p"
+
+# dots
+alias godots="cd $HOME/.dotfiles/"
