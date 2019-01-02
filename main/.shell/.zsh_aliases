@@ -12,3 +12,6 @@ alias v="vim -p"
 
 # dots
 alias godots="cd $HOME/.dotfiles/"
+
+# clock
+alias clock="tty-clock -c -t -C 7 -D"
