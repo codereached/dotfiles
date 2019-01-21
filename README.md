@@ -11,4 +11,4 @@ Run `install.sh` in the .dotfiles directory.
 Then `dots` in any terminal to update.
 Use `brewup` to run brewfile.
 
-It uses antibody: `brew install getantibody/tap/antibody`
+zsh uses antibody: `brew install getantibody/tap/antibody`
