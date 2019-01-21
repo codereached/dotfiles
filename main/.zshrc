@@ -31,17 +31,8 @@ prompt pure
 
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-
 export VISUAL=vim #set vim as default
 export ANSIBLE_INVENTORY=~/ansible_hosts
-
-
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-
-# export PATH="/usr/local/opt/mysql@5.5/bin:$PATH"
-# export LDFLAGS="-L/usr/local/opt/mysql@5.5/lib"
-# export CPPFLAGS="-I/usr/local/opt/mysql@5.5/include"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
