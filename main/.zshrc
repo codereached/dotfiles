@@ -15,7 +15,7 @@ zstyle :compinstall filename "${HOME}/.zshrc"
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+#export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:/Users/eperez/projects/istio/istio-1.0.4/bin"
 # export PATH=$HOME/bin:$PATH
 source .shell/.zsh_exports
@@ -34,7 +34,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export VISUAL=vim #set vim as default
 export ANSIBLE_INVENTORY=~/ansible_hosts
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 source $(brew --prefix nvm)/nvm.sh
  
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

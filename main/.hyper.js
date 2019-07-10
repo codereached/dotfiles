@@ -4,6 +4,8 @@
 
 module.exports = {
     config: {
+      opacity: 0.70,
+
       // choose either `'stable'` for receiving highly polished,
       // or `'canary'` for less polished but more frequent updates
       updateChannel: 'stable',
@@ -137,7 +139,13 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: [],
+    plugins: [
+      'hyper-pane',
+      'hyper-statusline',
+      'hyper-search',
+      'hyperlinks',
+      "hyper-opacity"
+    ],
   
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
