@@ -15,9 +15,6 @@ zstyle :compinstall filename "${HOME}/.zshrc"
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-#export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="$PATH:/Users/eperez/projects/istio/istio-1.0.4/bin"
-# export PATH=$HOME/bin:$PATH
 source .shell/.zsh_exports
 source .shell/.zsh_functions
 source .shell/.zsh_aliases
