@@ -21,8 +21,8 @@ export PATH="$PATH:/Users/eperez/projects/istio/istio-1.0.4/bin"
 source .shell/.zsh_exports
 source .shell/.zsh_functions
 source .shell/.zsh_aliases
-source .shell/.zsh_aliases
 source .shell/.zsh_local_functions
+source .shell/.zsh_local_exports
 fpath=( "$HOME/.shell/.zfunctions" $fpath )
 source <(antibody init)
 antibody bundle < ~/.shell/.zsh_plugins.txt

@@ -4,7 +4,6 @@
 
 module.exports = {
     config: {
-      opacity: 0.70,
 
       // choose either `'stable'` for receiving highly polished,
       // or `'canary'` for less polished but more frequent updates
@@ -144,7 +143,7 @@ module.exports = {
       'hyper-statusline',
       'hyper-search',
       'hyperlinks',
-      "hyper-opacity"
+      "hyper-transparent"
     ],
   
     // in development, you can create a directory under
