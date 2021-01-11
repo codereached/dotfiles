@@ -12,14 +12,14 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename "${HOME}/.zshrc"
 
-autoload -Uz compinit
-compinit
+#autoload -Uz compinit
+#compinit
 # End of lines added by compinstall
 source .shell/.zsh_exports
 source .shell/.zsh_functions
 source .shell/.zsh_aliases
-source .shell/.zsh_local_functions
-source .shell/.zsh_local_exports
+#source .shell/.zsh_local_functions
+#source .shell/.zsh_local_exports
 fpath=( "$HOME/.shell/.zfunctions" $fpath )
 source <(antibody init)
 antibody bundle < ~/.shell/.zsh_plugins.txt
